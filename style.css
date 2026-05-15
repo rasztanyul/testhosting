@@ -34,7 +34,7 @@
 }
 
 .header{
-    min-height: 100vh;
+    min-height: 85vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 88, 114, 0.565)), url(images/banner_teszt5.png)
     ;
@@ -660,7 +660,7 @@ section{
 .footer-new .col-xxl-2 {
     flex:0 0 auto;
     width:16.66666667%;
-    margin-right: 30px;
+    margin-right: 50px;
   }
 .footer-new .col-xxl-10 {
     flex:0 0 auto;
@@ -1290,6 +1290,12 @@ section{
         margin: 0 auto;
         text-align: justify;
     }
+
+    .reference-section .hero-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
     
 }
 @media(max-width: 700px){
@@ -1317,4 +1323,10 @@ section{
         flex-direction: column;
         padding-bottom: 0;
     }
+}
+
+@media(max-height: 400px) and (max-width: 1000px){
+    nav img{
+        display: none;
+}
 }
